@@ -1,0 +1,9 @@
+[package]
+name = "usb_lock"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+walkdir = "2.3.2"
+regex = "1.5.4"
+druid = "0.8.2"
