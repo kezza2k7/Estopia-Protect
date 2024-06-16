@@ -30,6 +30,3 @@ This Project aims as a way to lock a computer/laptop from unwanted eyes, normall
 
 ## Contributing
 Contributions are welcome! If you have any ideas or suggestions, please open an issue or submit a pull request.
-
-## License
-This project is licensed under the [MIT License](LICENSE).
