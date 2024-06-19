@@ -92,8 +92,9 @@ fn lock_system() {
             .output()
             .expect("Failed to lock workstation");
     } else if cfg!(target_os = "linux") {
-        Command::new("gnome-screensaver-command")
-            .arg("-l")
+        Command::new("systemctl")
+            .arg("restart")
+            .arg("display-manager")
             .output()
             .expect("Failed to lock screen");
     } else if cfg!(target_os = "macos") {
