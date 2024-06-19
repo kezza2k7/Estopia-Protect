@@ -56,7 +56,7 @@ fn get_usb_drives() -> Vec<String> {
         }
     } else {
         // For Linux/MacOS
-        let base_dirs = ["/media", "/run/media"];
+        let base_dirs = ["/media", "/run/media", "/mnt"];
         for base_dir in &base_dirs {
             if let Ok(entries) = fs::read_dir(base_dir) {
                 for entry in entries.flatten() {
