@@ -1,4 +1,4 @@
-# Project Name: Estopia+ Protect (USB Lock)
+# Project Name: Estopia Protect (USB Lock)
 
 ## Description
 This Project aims as a way to lock a computer/laptop from unwanted eyes, normally to lock a account using a usb you would have to buy one for around £30 but this program allows you to just use a normal usb of any size
@@ -15,7 +15,7 @@ This Project aims as a way to lock a computer/laptop from unwanted eyes, normall
 
 ## Installation (Expert)
 1. Clone the repository: `git clone https://github.com/kezza2k7/Estopia-Protect.git`
-2. Navigate to the project directory: `cd usb-lock`
+2. Navigate to the project directory: `cd Estopia-Protect`
 3. Install the required dependencies: `cargo build`
 
 ## Usage
