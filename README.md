@@ -14,7 +14,7 @@ This Project aims as a way to lock a computer/laptop from unwanted eyes, normall
 2. There u go!
 
 ## Installation (Expert)
-1. Clone the repository: `git clone https://github.com/kezza2k7/usb-lock.git`
+1. Clone the repository: `git clone https://github.com/kezza2k7/Estopia-Protect.git`
 2. Navigate to the project directory: `cd usb-lock`
 3. Install the required dependencies: `cargo build`
 
